@@ -1,3 +1,15 @@
-body {
-  background-color: rgb(189, 0, 0);
+@use "reset";
+@use "hero";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: 640px) {
+    max-width: 80%;
+  }
+  @media (max-width: 1024px) {
+    max-width: 90%;
+  }
 }
