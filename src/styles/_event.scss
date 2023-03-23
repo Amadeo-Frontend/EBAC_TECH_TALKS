@@ -1,0 +1,53 @@
+.event {
+  padding: 80px 0;
+
+  &--frontend {
+    background-image: linear-gradient(var(--blue1), var(--blue2));
+  }
+  &--ux-ui {
+    background-image: linear-gradient(var(--blue2), var(--pink));
+  }
+  &--data-sience {
+    background-image: linear-gradient(var(--pink), var(--yellow));
+  }
+  &--backend {
+    background-image: linear-gradient(var(--yellow), var(--pink));
+  }
+  &--image-left {
+    .container {
+      flex-direction: row-reverse;
+    }
+  }
+  .container {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__image {
+    max-width: 360px;
+  }
+  &__detail {
+    &__title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    &__description {
+      line-height: 22px;
+    }
+  }
+  @media (max-width: 640px) {
+    .container {
+      display: block;
+    }
+    &__image {
+      width: 100%;
+    }
+
+    &__detail {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+}

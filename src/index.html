@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EBAC Tech Talks</title>
     <link rel="stylesheet" href="styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="hero">
       <div class="container">
         <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC" />
         <p class="hero__text">
-          O maior evento de tecnologia do Brasil começa em 11d 25min 10s
+          O maior evento de tecnologia do Brasil começa em
+          <span id="countdown"></span>
         </p>
         <div class="infos-bar">
           <ul class="infos-bar__infos">
@@ -26,13 +28,94 @@
             </li>
             <li class="infos-bar__infos__item">
               <b>Quando</b>
-              12/12/2023
+              12/12/2023 às 18:00
             </li>
           </ul>
           <a href="#" class="button button--primary">Garanta sua vaga</a>
         </div>
       </div>
     </header>
+    <section class="event event--frontend">
+      <div class="container" data-aos="fade-right">
+        <div class="event__detail">
+          <h2 class="event__detail__title">Front-end</h2>
+          <p class="event__detail__description">
+            Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis,
+            eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os
+            tombis que eu levo! Suco de cevadiss deixa as pessoas mais
+            interessantis. Admodum accumsan disputationi eu sit. Vide electram
+            sadipscing et per. Mé faiz elementum girarzis, nisi eros vermeio. Si
+            u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nec
+            orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+            non ipsum felis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh
+            non tellus tristique interdum.
+          </p>
+        </div>
+        <img class="event__image" src="./images/frontend.png" alt="fornt-end" />
+      </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__detail">
+          <h2 class="event__detail__title">UX - UI Design</h2>
+          <p class="event__detail__description">
+            Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis,
+            eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os
+            tombis que eu levo! Suco de cevadiss deixa as pessoas mais
+            interessantis. Admodum accumsan disputationi eu sit. Vide electram
+            sadipscing et per. Mé faiz elementum girarzis, nisi eros vermeio. Si
+            u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nec
+            orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+            non ipsum felis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh
+            non tellus tristique interdum.
+          </p>
+        </div>
+        <img
+          class="event__image"
+          src="./images/ui-ux.png"
+          alt="UX - UI Design"
+        />
+      </div>
+    </section>
+    <section class="event event--data-sience">
+      <div class="container" data-aos="fade-right">
+        <div class="event__detail">
+          <h2 class="event__detail__title">Data Science</h2>
+          <p class="event__detail__description">
+            Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis,
+            eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os
+            tombis que eu levo! Suco de cevadiss deixa as pessoas mais
+            interessantis. Admodum accumsan disputationi eu sit. Vide electram
+            sadipscing et per. Mé faiz elementum girarzis, nisi eros vermeio. Si
+            u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nec
+            orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+            non ipsum felis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh
+            non tellus tristique interdum.
+          </p>
+        </div>
+        <img class="event__image" src="./images/data.png" alt="Data Science" />
+      </div>
+    </section>
+    <section class="event event--backend event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__detail">
+          <h2 class="event__detail__title">Back-end</h2>
+          <p class="event__detail__description">
+            Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis,
+            eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os
+            tombis que eu levo! Suco de cevadiss deixa as pessoas mais
+            interessantis. Admodum accumsan disputationi eu sit. Vide electram
+            sadipscing et per. Mé faiz elementum girarzis, nisi eros vermeio. Si
+            u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nec
+            orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+            non ipsum felis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh
+            non tellus tristique interdum.
+          </p>
+        </div>
+        <img class="event__image" src="./images/backend.png" alt="Back-end" />
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>

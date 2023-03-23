@@ -6,8 +6,8 @@
   white-space: nowrap;
 
   &--primary {
-    color: #fff;
-    background-color: #4f2ac3;
+    color: var(--textColor);
+    background-color: var(--buttonColor);
   }
   @media (max-width: 640px) {
     display: block;
