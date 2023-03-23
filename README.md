@@ -4,7 +4,7 @@
 
 
 </br>
-<p align="center">EBAC_TECH_TALKS landing page 100% responsiva :</p>
+<p align="center">EBAC TECH TALKS landing page fictícia 100% responsiva :</p>
 
 </br>
  <div style="display: inline_block" align="center">
