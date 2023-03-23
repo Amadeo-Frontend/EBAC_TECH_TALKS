@@ -1,6 +1,6 @@
 
 
-<h1 align="center">EBAC_TECH_TALKS</h1>
+<h1 align="center">EBAC TECH TALKS</h1>
 
 
 </br>
